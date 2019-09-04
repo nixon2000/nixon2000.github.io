@@ -1,0 +1,44 @@
+.webform-element form {
+	width: calc(100% - 2px);
+	margin: 0;
+}
+.webform-element .captcha {
+	cursor: pointer;
+}
+.webform-element form .control-group:last-child {
+	overflow: hidden;
+	margin-bottom: 0;
+}
+.webform-element form .control-group:last-child .btn {
+	margin-bottom: 0;
+}
+.webform-element input, 
+.webform-element textarea, 
+.webform-element select {
+	font-family: Open Sans, sans-serif;
+	color: black;
+}
+.webform-element .submit-control-group,
+.webform-element select {
+	width: calc(100% + 2px) !important;
+}
+.webform-element label.checkbox, 
+.webform-element label.radio {
+	font-weight: normal;
+	font-style: normal;
+}
+.webform-element input[type="checkbox"],
+.webform-element input[type="radio"] {
+	box-shadow: none !important;
+}
+.webform-element input[type="text"],
+.webform-element input[type="email"],
+.webform-element input[type="phone"],
+.webform-element input[type="date"],
+.webform-element input[type="url"],
+.webform-element input[type="tel"],
+.webform-element select,
+.webform-element textarea {
+	padding-left: 10px;
+	width: calc(100% - 10px);
+}
